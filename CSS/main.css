@@ -15,6 +15,13 @@ body {
   display: flex;
 }
 
+.body-box:first-child {
+  background-color: pink;
+  height: 100%;
+  /* flex-direction: column; */
+  /* flex: 1; */
+}
+
 aside {
   width: 30%;
   height: 100%;
@@ -28,7 +35,14 @@ aside {
 
 .user-info-section {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-evenly;
   flex-direction: column;
+  padding-left: 200px;
+  background-color: aquamarine;
+  flex-grow: 2;
 }
 
 .side .user-info {
