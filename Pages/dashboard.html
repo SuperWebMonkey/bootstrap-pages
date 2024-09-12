@@ -18,14 +18,7 @@
     <link rel="stylesheet" href="../CSS/main.css" />
   </head>
   <body>
-    <section class="left-side">
-      <div id="logo"></div>
-      <img src="" alt="" />
-      <div id="user-info"></div>
-      <!-- <button id="follow"></button> -->
-      <!-- <button id="notifications"></button> -->
-    </section>
-    <section class="right-side">
+    <section class="main-content">
       <div class="navbar">
         <!-- nav bar section -->
         <div class="navbar">
@@ -35,7 +28,7 @@
                 >The Happy Elephant</a
               >
               <a class="navbar-brand" id="other-page" href="./userpage.html"
-                >User Page</a
+                >Go To User Page</a
               >
               <button
                 class="navbar-toggler"
@@ -61,10 +54,34 @@
                   </button>
                 </form>
                 <a class="btn btn-primary me-2" href="#">Login</a>
-                <a class="btn btn-secondary" href="#">Link</a>
               </div>
             </div>
           </nav>
+          <!-- body section -->
+          <section class="body-section">
+            <!-- side bar -->
+            <aside class="body-box">
+              <div class="side-menu">
+                <h4>Side Menu</h4>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Edit Users</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </section>
+          <!-- admin section -->
+          <section class="body-box admin-section user-info-section"></section>
         </div>
         <!-- user info section -->
       </div>
