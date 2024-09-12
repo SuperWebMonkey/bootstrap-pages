@@ -3,3 +3,15 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
+/* both pages */
+.right-side {
+  /* float: right; */
+  margin: 0 auto;
+}
+#other-page {
+  border: 2px rgb(0, 0, 0) solid;
+  background-color: skyblue;
+}
+
+/*  */
