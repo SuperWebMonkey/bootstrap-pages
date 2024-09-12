@@ -65,59 +65,88 @@
           </div>
         </nav>
       </div>
-      <!-- user info section -->
-      <div class="user-info">
-        <div class="container mt-5">
-          <!-- User Info  -->
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <!-- Profile Image -->
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Profile Picture"
-                class="profile-img"
-              />
-            </div>
-            <div class="col-md-8">
-              <!-- User Details -->
-              <div class="user-details">
-                <h3>Anonmyous</h3>
-                <p><strong>Email:</strong> anonymous@example.com</p>
-                <p><strong>Username:</strong> anonymous</p>
-                <p><strong>Phone:</strong> +###-###-####</p>
-                <p>
-                  <strong>Address:</strong> ??? Nowheresville, randomtown, USA
-                </p>
-                <!-- Action Buttons -->
-                <a href="#" class="btn btn-primary btn-action">Edit Profile</a>
-                <a href="#" class="btn btn-secondary btn-action"
-                  >View Details</a
-                >
-              </div>
-            </div>
+      <!-- side menu -->
+      <section class="body-section">
+        <aside>
+          <div class="side-menu">
+            <h4>Side Menu</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Settings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Messages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Edit Users</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+            </ul>
           </div>
-        </div>
-      </div>
-      <!-- Basic Chart -->
-      <div class="user-chart container mt-5">
-        <h1 class="mb-3">Sptrint Progress Dashboard</h1>
+        </aside>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card">
-              <div class="card-header">
-                <h4>Sprint Updates</h4>
-              </div>
-              <div class="card-body">
-                <!-- Chart Container -->
-                <div class="chart-container">
-                  <canvas id="projectChart"></canvas>
+        <!-- user info section -->
+        <section class="user-info-section">
+          <!-- User info -->
+          <div class="user-info">
+            <div class="container mt-5">
+              <!-- User Info  -->
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <!-- Profile Image -->
+                  <img
+                    src="https://via.placeholder.com/150"
+                    alt="Profile Picture"
+                    class="profile-img"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <!-- User Details -->
+                  <div class="user-details">
+                    <h3>Anonmyous</h3>
+                    <p><strong>Email:</strong> anonymous@example.com</p>
+                    <p><strong>Username:</strong> anonymous</p>
+                    <p><strong>Phone:</strong> +###-###-####</p>
+                    <p>
+                      <strong>Address:</strong> ??? Nowheresville, randomtown,
+                      USA
+                    </p>
+                    <!-- Action Buttons -->
+                    <a href="#" class="btn btn-primary btn-action"
+                      >Edit Profile</a
+                    >
+                    <a href="#" class="btn btn-secondary btn-action"
+                      >View Details</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          <!-- Sprint chart -->
+          <div class="user-chart container mt-5">
+            <h1 class="mb-3">Sprint Progress Dashboard</h1>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Sprint Updates</h4>
+                  </div>
+                  <div class="card-body">
+                    <!-- Chart Container -->
+                    <div class="chart-container">
+                      <canvas id="projectChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
       <!-- End of User info -->
     </section>
   </body>

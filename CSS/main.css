@@ -5,23 +5,41 @@ body {
 }
 
 /* both pages */
-.right-side {
-  /* float: right; */
-  margin: 0 auto;
-}
 #other-page {
   border: 2px rgb(0, 0, 0) solid;
   background-color: skyblue;
 }
 
 /* User info Styling */
-.user-info {
+.body-section {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  height: 100%;
+}
+.side-menu {
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: bisque;
+  /* width: 30%; */
+}
+
+.user-info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.side .user-info {
   float: right;
   width: 70%;
+  flex: 1;
 }
 
 .user-chart {
   float: right;
   width: 70%;
   margin-bottom: 20px;
+  flex: 3;
 }
