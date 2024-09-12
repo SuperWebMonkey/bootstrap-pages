@@ -32,6 +32,12 @@ aside {
   padding-left: 100px;
 }
 
+.profile-img {
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* .nav-item {
   border: 2px black solid;
   width: 100%;
@@ -46,6 +52,7 @@ aside {
 
 .user-info-section {
   display: flex;
+  padding-top: 20px;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
@@ -79,4 +86,41 @@ aside {
 
 .minor-chart {
   display: flex;
+}
+
+/* Footer section */
+#my-footer {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: darkgray;
+  width: 100vw;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content a {
+  justify-content: space-around;
+  /* top left bottom right */
+  margin: 5px 7px 5px 7px;
+}
+
+.fab {
+  color: white;
+}
+
+.fab:hover {
+  color: gold;
+}
+
+#copy-right h5 {
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+  padding-bottom: 8px;
 }
