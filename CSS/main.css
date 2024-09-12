@@ -72,4 +72,11 @@ aside {
 /* Admin section */
 .admin-section {
   background-color: bisque;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  /* justify-content: flex-start; */
+}
+
+.minor-chart {
+  display: flex;
 }
